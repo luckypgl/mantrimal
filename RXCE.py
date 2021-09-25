@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
+                sys.stdout.write('\rconnecting to server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet MANTRIMALLS'
+    banner='figlet RXCE V 2.0'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
@@ -72,12 +72,12 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @Haker4541")
+        print("Contact me on telegram @Haker9729")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully hacked the server-----------")
+        print("\n---------Successfully Connected to the server-----------")
         chalo1()
         print("\n---------Successfully got the colour -------------")
         print('\n')
@@ -123,7 +123,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Hacker4541")
+            sys.exit(" \n \n \n Contact on Telegram @Hacker9729")
             print(numbers)
   
 
@@ -141,7 +141,7 @@ if(expirydate>today):
     Finalend = now.replace(hour=23, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=438
+            period=20210925269
             hero()
     elif(now>First and now<Firstend):
             period=280
@@ -153,7 +153,7 @@ if(expirydate>today):
             period=360
             hero()
     else:
-        banner='figlet MANTRIMALLS'
+        banner='figlet RXCE V 2.0'
         print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
@@ -163,6 +163,6 @@ if(expirydate>today):
         print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @Hacker4541 ")
+        print(" admin on telegram @Hacker9729 ")
 
 
